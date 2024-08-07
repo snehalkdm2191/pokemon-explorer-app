@@ -1,0 +1,23 @@
+.container {
+    padding: 2rem;
+  }
+  
+  .title {
+    margin-bottom: 2rem;
+  }
+  
+  .pokemonButton {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .gridItem {
+    margin-bottom: 2rem;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
