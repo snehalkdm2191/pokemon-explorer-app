@@ -20,7 +20,7 @@ const PokemonDetailPage: React.FC = () => {
 
     return (
         <Container className={styles.container}>
-            <Typography variant="h2" gutterBottom className={styles.title}>
+            <Typography variant="h3" gutterBottom className={styles.title}>
                 {pokemon.name}
             </Typography>
             <img src={pokemon.sprites.front_default} alt={pokemon.name} className={styles.image} />

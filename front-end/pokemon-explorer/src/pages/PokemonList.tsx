@@ -29,7 +29,7 @@ const PokemonListPage: React.FC = () => {
 
   return (
     <Container className={styles.container}>
-      <Typography variant="h2" gutterBottom className={styles.title}>
+      <Typography variant="h3" gutterBottom className={styles.title}>
         List
       </Typography>
       <Grid container spacing={3}>

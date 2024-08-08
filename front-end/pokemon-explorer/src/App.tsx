@@ -8,6 +8,9 @@ function App() {
   return (
     <div className="App">
       <Router>
+      <div style={{ textAlign: 'center', padding: '10px 0px 0px 0px' }}>
+          <img src="/assets/pokemon_logo.gif" alt="Pokemon Logo" />
+        </div>
         <Routes>
           <Route path="/" element={<PokemonList />} />
           <Route path="/pokemon/:name" element={<PokemonDetailPage />} />
